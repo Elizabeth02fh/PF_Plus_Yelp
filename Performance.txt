@@ -1,0 +1,13 @@
+Performance Between MySQL vs PostgreSQL Database Engines
+
+-In terms of speed, the one that is best is PostgreSQL since it has parallel reading and writing functions.
+
+-PostgreSQL, it is recommended for large databases such as
+In this case, the "review" dataset would be taken as an example and in
+in terms of performance in response time for complex queries, it is also the best.
+
+-Regarding compliance with the ACID principles, that is, atomicity, consistency, integrity and durability of the information.
+PostgreSQL ensures you with greater security that there will be no loss of information or failures when transmitting data.
+
+-PostgreSQL, is still the best support for different data types, 
+since this engine allows native support and extensions for more data types than the standard ones.
