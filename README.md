@@ -8,8 +8,6 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 Uno de los factores determinantes en el éxito o fracaso de un negocio es la elección del rubro y su capacidad de adaptación a las tendencias del mercado. Sectores como la restauración, el turismo, el entretenimiento y el comercio minorista han demostrado ser especialmente sensibles a las fluctuaciones económicas, cambios en los hábitos de consumo y evolución tecnológica. Durante los últimos años, por ejemplo, el auge del comercio electrónico ha afectado significativamente las ventas minoristas tradicionales, mientras que la digitalización ha redefinido la experiencia en la industria del entretenimiento.
 
-![image](https://github.com/user-attachments/assets/d4963d17-197e-4725-9faa-31377dda6962)
-
 <img src="https://github.com/user-attachments/assets/d4963d17-197e-4725-9faa-31377dda6962" width="400">
 
 
