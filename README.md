@@ -9,6 +9,7 @@ Uno de los factores determinantes en el éxito o fracaso de un negocio es la ele
 Además, la ubicación de un negocio juega un papel crucial en su rentabilidad. Un estudio de Yelp reveló que las empresas situadas en áreas con alto tráfico peatonal y cercanas a zonas residenciales con ingresos medios-altos tienen mayor probabilidad de éxito. Sin embargo, muchas startups y pequeños emprendedores no cuentan con herramientas adecuadas para analizar estos factores y terminan eligiendo ubicaciones menos estratégicas, lo que puede afectar su sostenibilidad a largo plazo.
 
 <img src="https://github.com/user-attachments/assets/d4963d17-197e-4725-9faa-31377dda6962" width="400">
+
 ![image](https://github.com/user-attachments/assets/597551d3-593b-47f3-812b-15182fd50532)
 
 
