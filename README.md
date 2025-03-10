@@ -1,4 +1,4 @@
-# Análisis del Mercado Estadounidense
+# Análisis del Mercado Estadounidense aplicando Ingeniería de Datos
 
 ## Definición del problema
 
