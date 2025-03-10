@@ -10,6 +10,9 @@ Además, la ubicación de un negocio juega un papel crucial en su rentabilidad. 
 
 ![GIF animado](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3A1dmF4ZTcyM3dvcndldjNoMW81ZXEyaXR2ZGEycTh5MjhjbDZjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6NLkHuoWlcdXIHktr/giphy.gif)
 
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3A1dmF4ZTcyM3dvcndldjNoMW81ZXEyaXR2ZGEycTh5MjhjbDZjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6NLkHuoWlcdXIHktr/giphy.gif" width="300">
+
+
 Para abordar estos desafíos, el análisis de datos se ha convertido en una herramienta clave para predecir qué sectores tienen mayor potencial de crecimiento o declive y determinar la mejor ubicación para nuevas sucursales. A través de técnicas como el procesamiento de lenguaje natural (NLP) para analizar reseñas de usuarios, modelos de predicción basados en tendencias históricas y métricas clave como la variación en calificaciones y la tasa de cierre de sucursales, es posible generar insights valiosos para la toma de decisiones estratégicas.
 
 El presente proyecto busca aplicar ingeniería de datos para analizar y predecir el comportamiento de distintos sectores del mercado estadounidense, ayudando a emprendedores e inversionistas a tomar decisiones fundamentadas que reduzcan el riesgo de fracaso y aumenten las probabilidades de éxito en el competitivo entorno empresarial, puedes redimensionar, mas pequeño, la imagen
