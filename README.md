@@ -10,6 +10,9 @@ Uno de los factores determinantes en el éxito o fracaso de un negocio es la ele
 
 ![image](https://github.com/user-attachments/assets/d4963d17-197e-4725-9faa-31377dda6962)
 
+<img src="https://github.com/user-attachments/assets/d4963d17-197e-4725-9faa-31377dda6962" width="400">
+
+
 Además, la ubicación de un negocio juega un papel crucial en su rentabilidad. Un estudio de Yelp reveló que las empresas situadas en áreas con alto tráfico peatonal y cercanas a zonas residenciales con ingresos medios-altos tienen mayor probabilidad de éxito. Sin embargo, muchas startups y pequeños emprendedores no cuentan con herramientas adecuadas para analizar estos factores y terminan eligiendo ubicaciones menos estratégicas, lo que puede afectar su sostenibilidad a largo plazo.
 
 Para abordar estos desafíos, el análisis de datos se ha convertido en una herramienta clave para predecir qué sectores tienen mayor potencial de crecimiento o declive y determinar la mejor ubicación para nuevas sucursales. A través de técnicas como el procesamiento de lenguaje natural (NLP) para analizar reseñas de usuarios, modelos de predicción basados en tendencias históricas y métricas clave como la variación en calificaciones y la tasa de cierre de sucursales, es posible generar insights valiosos para la toma de decisiones estratégicas.
