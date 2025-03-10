@@ -1,6 +1,16 @@
 # Análisis del Mercado Estadounidense
 
 ## Definición del problema
+
+El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos negocios logran establecerse en el mercado, un porcentaje significativo enfrenta dificultades para mantenerse a largo plazo. Según datos de la Oficina de Estadísticas Laborales de EE.UU. (BLS), aproximadamente el 20% de las nuevas empresas fracasan en su primer año, mientras que el 50% no sobrevive más allá de los cinco años y alrededor del 65% cierra antes de los diez años. Estas cifras reflejan la complejidad del entorno empresarial y la necesidad de una toma de decisiones informada para asegurar la viabilidad y el crecimiento de los negocios.
+
+Uno de los factores determinantes en el éxito o fracaso de un negocio es la elección del rubro y su capacidad de adaptación a las tendencias del mercado. Sectores como la restauración, el turismo, el entretenimiento y el comercio minorista han demostrado ser especialmente sensibles a las fluctuaciones económicas, cambios en los hábitos de consumo y evolución tecnológica. Durante los últimos años, por ejemplo, el auge del comercio electrónico ha afectado significativamente las ventas minoristas tradicionales, mientras que la digitalización ha redefinido la experiencia en la industria del entretenimiento.
+
+Además, la ubicación de un negocio juega un papel crucial en su rentabilidad. Un estudio de Yelp reveló que las empresas situadas en áreas con alto tráfico peatonal y cercanas a zonas residenciales con ingresos medios-altos tienen mayor probabilidad de éxito. Sin embargo, muchas startups y pequeños emprendedores no cuentan con herramientas adecuadas para analizar estos factores y terminan eligiendo ubicaciones menos estratégicas, lo que puede afectar su sostenibilidad a largo plazo.
+
+Para abordar estos desafíos, el análisis de datos se ha convertido en una herramienta clave para predecir qué sectores tienen mayor potencial de crecimiento o declive y determinar la mejor ubicación para nuevas sucursales. A través de técnicas como el procesamiento de lenguaje natural (NLP) para analizar reseñas de usuarios, modelos de predicción basados en tendencias históricas y métricas clave como la variación en calificaciones y la tasa de cierre de sucursales, es posible generar insights valiosos para la toma de decisiones estratégicas.
+
+El presente proyecto busca aplicar ingeniería de datos para analizar y predecir el comportamiento de distintos sectores del mercado estadounidense, ayudando a emprendedores e inversionistas a tomar decisiones fundamentadas que reduzcan el riesgo de fracaso y aumenten las probabilidades de éxito en el competitivo entorno empresarial.
 ## Metricas
 
 Son indicadores que mide la empresa, usando todos los datos que tiene a disposicion, ej. numero de ordenes por dia en un restaurante
