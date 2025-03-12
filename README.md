@@ -14,29 +14,14 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3A1dmF4ZTcyM3dvcndldjNoMW81ZXEyaXR2ZGEycTh5MjhjbDZjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6NLkHuoWlcdXIHktr/giphy.gif" width="200">
 
-## ALCANCE
+### Alcance
 
 - Se dirige al mercado estadounidense y trabaja principalmente con datos de Yelp para esa región.
 - El enfoque está en restaurantes y empresas relacionadas; no se incluirán otros países ni una variedad de tipos de negocios.
 - El software estará diseñado para funcionar en cualquier computadora como una aplicación web para cualquier usuario, que solo necesitará un servidor para su implementación.
 - El software se desarrollará en un plazo de 3 semanas.
 
-
-## Metricas
-
-Son indicadores que mide la empresa, usando todos los datos que tiene a disposicion, ej. numero de ordenes por dia en un restaurante
-
-
-
-### Objetivos:
-
-
-
 ### KPI’s (Key Performance Indicator)
-
-Es una metrica **clave,** estas son solo unas cuantas respecto a las metricas pero tienen un alto impacto en el negocio, por lo que mejorarlas representara un inpacto positivo para la empresa,
-
-entendemos asi que todos los KPI’s son metricas pero no todas las metricas son KPI’s
 
 1) Variación porcentual del promedio de estrellas(calificación):
     PCC= (promedio estrellas año 2) - (promedio estrellas año 1) / ((promedio estrellas año 1) *100
@@ -50,6 +35,9 @@ entendemos asi que todos los KPI’s son metricas pero no todas las metricas son
 4) porcentaje de sucursales cerradas por rubro
     CSC = (cantidad de sucursales cerradas) / (cantidad de sucursales totales por rubro) *100
 
+## Metricas
+
+- Numero de ordenes por dia en un restaurante
 
 ### Alcance del proyecto
 
