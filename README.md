@@ -5,14 +5,22 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 ### Objetivos:
 
-Predecir qué líneas de negocio crecerán o declinarán más.
+- Predecir qué líneas de negocio crecerán o declinarán más.
 
-Predecir la ubicación más conveniente para los nuevos locales de los negocios evaluados.
+- Predecir la ubicación más conveniente para los nuevos locales de los negocios evaluados.
 
-Implementar un sistema de recomendaciones para los usuarios de la plataforma PlusYelp.
+- Implementar un sistema de recomendaciones para los usuarios de la plataforma PlusYelp.
 
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3A1dmF4ZTcyM3dvcndldjNoMW81ZXEyaXR2ZGEycTh5MjhjbDZjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6NLkHuoWlcdXIHktr/giphy.gif" width="200">
+
+## ALCANCE
+
+- Se dirige al mercado estadounidense y trabaja principalmente con datos de Yelp para esa región.
+- El enfoque está en restaurantes y empresas relacionadas; no se incluirán otros países ni una variedad de tipos de negocios.
+- El software estará diseñado para funcionar en cualquier computadora como una aplicación web para cualquier usuario, que solo necesitará un servidor para su implementación.
+- El software se desarrollará en un plazo de 3 semanas.
+
 
 ## Metricas
 
