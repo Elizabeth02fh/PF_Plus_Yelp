@@ -71,6 +71,8 @@ Luego de la limpieza de los datos, se procede a normalizar los nombres de column
 
 ![image](https://github.com/user-attachments/assets/3eaf53f3-54b2-4407-9559-68159a620ab8)
 
+## Arquitectura implementada
+
 
 
 ## stack tecnológico
