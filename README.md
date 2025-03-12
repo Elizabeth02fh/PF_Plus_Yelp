@@ -1,5 +1,5 @@
 # Análisis del Mercado Estadounidense 
-Link de la documentación en Notion:
+Link de la documentación en Notion y Youtube:
 
 https://vigorous-shawl-3d2.notion.site/Documentaci-n-PlusYelp-4b2f3a69253e4c03b224971729391dbc
 
