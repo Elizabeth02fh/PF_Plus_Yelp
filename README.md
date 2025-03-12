@@ -62,13 +62,6 @@ Además, para garantizar una correcta ingesta en MySQL, corregimos:
 - Errores en caracteres especiales y tipos de datos.
 - Por último, aplicamos PLN en los comentarios para limpiar texto, corregir ortografía y -estandarizar términos.
 
-## stack tecnológico
-- Extraction and transformation:
-- load and storage:
-- analysis:
-- incremental load or streaming
-- Presentation: dash plotly
-
 ## Calidad de los datos
 Luego de la limpieza de los datos, se procede a normalizar los nombres de columnas, de tal manera coincida y sea la misma en todas las tablas, posterior procedemos a modelar la estructura relacional que tendrá nuestros datos en el Datawarehouse. Hasta ahora se cuenta con 4 tablones, los cuales serán normalizados hasta alcanzar la Tercera Forma Normal, y se alcanza de la siguiente manera:
 
@@ -77,6 +70,14 @@ Luego de la limpieza de los datos, se procede a normalizar los nombres de column
 - Tercera Forma Normal: Una relación se encuentra en 3FN sólo si se cumple 2FN y los campos no clave dependen únicamente de la clave o los campos no clave no dependen unos de otros.
 
 
+
+
+## stack tecnológico
+- Extraction and transformation:
+- load and storage:
+- analysis:
+- incremental load or streaming
+- Presentation: dash plotly
 
 ## Diccionario de datos
 
