@@ -1,4 +1,8 @@
 # Análisis del Mercado Estadounidense 
+Link de la documentación en Notion:
+
+https://vigorous-shawl-3d2.notion.site/Documentaci-n-PlusYelp-4b2f3a69253e4c03b224971729391dbc
+
 ## Definición del problema
 
 El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos negocios logran establecerse en el mercado, un porcentaje significativo enfrenta dificultades para mantenerse a largo plazo. Según datos de la Oficina de Estadísticas Laborales de EE.UU. (BLS), aproximadamente el 20% de las nuevas empresas fracasan en su primer año, mientras que el 50% no sobrevive más allá de los cinco años y alrededor del 65% cierra antes de los diez años. Estas cifras reflejan la complejidad del entorno empresarial y la necesidad de una toma de decisiones informada para asegurar la viabilidad y el crecimiento de los negocios.
@@ -71,6 +75,7 @@ Luego de la limpieza de los datos, se procede a normalizar los nombres de column
 - Primera Forma Normal: Una relación se encuentra en 1FN sólo si cada uno de sus atributos contiene un único valor para un registro determinado.
 - Segunda Forma Normal: Una relación se encuentra en 2FN sólo si se cumple 1FN y todos sus atributos no clave dependen en forma completa de la clave.
 - Tercera Forma Normal: Una relación se encuentra en 3FN sólo si se cumple 2FN y los campos no clave dependen únicamente de la clave o los campos no clave no dependen unos de otros.
+
 
 
 ## Diccionario de datos
