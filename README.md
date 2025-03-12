@@ -110,7 +110,8 @@ Muestra que los negocios de night life y art & entertaiment, presenta un mayor p
 ya que debido al covid 19 muchos locales de nighlife se cerraron por completo asi como también, los lugares de artes y entretenimiento.  
 
 
-![image](https://github.com/user-attachments/assets/d59474e5-97f0-4b54-9b51-b02410461270)
+![image](https://github.com/user-attachments/assets/ac185563-67bf-458c-9a91-a2c46eeff553)
+
 
 ### Página 3.
 ## Oportunides
@@ -128,9 +129,17 @@ cantidad de reseñas.
 Se puede escoger la categoria por analizar. 
 ![image](https://github.com/user-attachments/assets/5f053613-52ca-4387-b03b-a97c03721ab0)
 
-### CONCLUSIONES
+## SISTEMA DE RECOMENDACIÓN DE RESTAURANTES
+Usuarios Antiguos
+Sistema de  recomendacion en base a contenido
+Tomando en cuenta datos del historial de reseñas del usuario se proporciona sugerencias en base a los restaurantes que mas le gusto y  comparándolo con nuestra base de datos de restaurantes previamente categorizados y clasificados
+Usuarios Nuevos
+Sistema de  recomendacion en base a popularidad
+Al carecer de información del usuario  se  le muestra una serie de recomendaciones en base a la popularidad total de los restaurantes, en base a cantidad de reseñas y puntuación alta en estrellas
 
+![image](https://github.com/user-attachments/assets/606a610c-5b9d-4c90-860f-c93839c8348f)
 
+![image](https://github.com/user-attachments/assets/8cca7c59-7c06-4536-a31d-4c35f9ec2bbc)
 
 ## stack tecnológico
 - Extraction and transformation:
