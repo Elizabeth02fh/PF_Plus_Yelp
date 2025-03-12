@@ -43,6 +43,21 @@ Se descargaron de la pagina de Yelp
 
 https://www.yelp.com/
 
+## Análisis de datos y limpieza de datos
+
+Para nuestro proceso de limpieza, comenzamos delimitando los datos disponibles. Luego, inspeccionamos los datasets y seleccionamos las columnas de interés.
+
+Durante la limpieza, realizamos:
+
+-Imputación de valores faltantes según el contexto.
+-Estandarización de valores redundantes para mantener coherencia.
+-Conversión de datos categóricos para evitar duplicidades.
+-Corrección de errores estructurales (tipográficos y de formato).
+Además, para garantizar una correcta ingesta en MySQL, corregimos:
+
+-Columnas no relevantes, valores nulos y duplicados.
+-Errores en caracteres especiales y tipos de datos.
+-Por último, aplicamos PLN en los comentarios para limpiar texto, corregir ortografía y -estandarizar términos.
 
 ## stack tecnológico
 - Extraction and transformation:
