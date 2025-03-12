@@ -66,7 +66,6 @@ Luego de la limpieza de los datos, se procede a normalizar los nombres de column
 - Tercera Forma Normal: Una relación se encuentra en 3FN sólo si se cumple 2FN y los campos no clave dependen únicamente de la clave o los campos no clave no dependen unos de otros.
 
 ![image](https://github.com/user-attachments/assets/3eaf53f3-54b2-4407-9559-68159a620ab8)
-
 ## Arquitectura implementada
 
 La arquitectura empleada para el proceso de ETL se basa en el lenguaje Python y SQL en conjunto con los servicios de la nube de AWS.
