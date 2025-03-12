@@ -69,6 +69,7 @@ Luego de la limpieza de los datos, se procede a normalizar los nombres de column
 - Segunda Forma Normal: Una relación se encuentra en 2FN sólo si se cumple 1FN y todos sus atributos no clave dependen en forma completa de la clave.
 - Tercera Forma Normal: Una relación se encuentra en 3FN sólo si se cumple 2FN y los campos no clave dependen únicamente de la clave o los campos no clave no dependen unos de otros.
 
+![image](https://github.com/user-attachments/assets/3eaf53f3-54b2-4407-9559-68159a620ab8)
 
 
 
