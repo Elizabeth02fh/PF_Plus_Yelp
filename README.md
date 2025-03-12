@@ -21,7 +21,7 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 - El software estará diseñado para funcionar en cualquier computadora como una aplicación web para cualquier usuario, que solo necesitará un servidor para su implementación.
 - El software se desarrollará en un plazo de 3 semanas.
 
-### KPI’s (Key Performance Indicator)
+### KPI’s y Métricas
 
 1) Variación porcentual del promedio de estrellas(calificación):
     PCC= (promedio estrellas año 2) - (promedio estrellas año 1) / ((promedio estrellas año 1) *100
@@ -34,8 +34,6 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 4) porcentaje de sucursales cerradas por rubro
     CSC = (cantidad de sucursales cerradas) / (cantidad de sucursales totales por rubro) *100
-
-## Metricas
 
 - Numero de ordenes por dia en un restaurante
 
