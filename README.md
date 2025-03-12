@@ -5,10 +5,10 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 ### Objetivos:
 
-- Predecir cuales son los rubros de negocios que mas creceran o decaeran
-- Predecir la localizacin mas conveniente de nuevos locales de estos negocios evaluados
-- Implementar un sistema de recomendaciones para usuarios
-- 
+Predecir qué líneas de negocio crecerán o declinarán más.
+Predecir la ubicación más conveniente para los nuevos locales de los negocios evaluados.
+Implementar un sistema de recomendaciones para los usuarios de la plataforma PlusYelp.
+
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3A1dmF4ZTcyM3dvcndldjNoMW81ZXEyaXR2ZGEycTh5MjhjbDZjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6NLkHuoWlcdXIHktr/giphy.gif" width="200">
 
 ## Metricas
@@ -19,9 +19,7 @@ Son indicadores que mide la empresa, usando todos los datos que tiene a disposic
 
 ### Objetivos:
 
-- Predecir cuales son los rubros de negocios que mas creceran o decaeran
-- Predecir la localizacin mas conveniente de nuevos locales de estos negocios evaluados
-- Implementar un sistema de recomendaciones para usuarios
+
 
 ### KPI’s (Key Performance Indicator)
 
