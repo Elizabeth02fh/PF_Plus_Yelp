@@ -14,7 +14,7 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3A1dmF4ZTcyM3dvcndldjNoMW81ZXEyaXR2ZGEycTh5MjhjbDZjdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w6NLkHuoWlcdXIHktr/giphy.gif" width="200">
 
-### Alcance
+### Usuarios finales de los resultados 
 
 - Se dirige al mercado estadounidense y trabaja principalmente con datos de Yelp para esa región.
 - El enfoque está en restaurantes y empresas relacionadas; no se incluirán otros países ni una variedad de tipos de negocios.
@@ -36,6 +36,13 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
     CSC = (cantidad de sucursales cerradas) / (cantidad de sucursales totales por rubro) *100
 
 - Numero de ordenes por dia en un restaurante
+
+## Recoleccion y Calidad de Datos
+
+Se descargaron de la pagina de Yelp
+
+https://www.yelp.com/
+
 
 ## stack tecnológico
 - Extraction and transformation:
