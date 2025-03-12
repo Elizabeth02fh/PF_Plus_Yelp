@@ -69,16 +69,66 @@ Luego de la limpieza de los datos, se procede a normalizar los nombres de column
 
 ## Arquitectura implementada
 
-La arquitectura empleada para el proceso de ETL se basa en el lenguaje Python y SQL en conjunto con los servicios de la nube de AWS.
+La arquitectura empleada para el proceso de ETL se basa en el lenguaje Python y SQL en conjunto con los servicios de la nube de GCP.
 
-Una vez que se tuvo las tablas definidas, así como sus campos y conexiones (llave primarias y secundarias) se creó en la nube de AWS una database en el servicio RDS. Para luego conectar mediante un punto de acceso y crear una instancia en el MySQL. En la database, creada en la nube, se crea la estructura de las tablas con sus llaves primarias y secundarias. Con ello, poder generar la conexión con el editor de código y poder subir los datos limpios al database del servicio RDS. Para poder guardar cada tabla en el almacenamiento de la nube, se creó un bucket en el servicio Amazon S3. Esto se realizó para cada tabla mediante el servicio Data Pipeline, el cual creaba un archivo csv mediante una tarea de única vez filtrado por la última fecha.
+Una vez que se tuvieron las tablas definidas, así como sus campos y conexiones (llaves primarias y secundarias), se creó en la nube de GCP una database en el servicio Google Cloud SQL. Luego, se estableció la conexión mediante un punto de acceso y se creó un Compute Engine en Google Cloud SQL - MySQL. En la base de datos creada en la nube, se definió la estructura de las tablas con sus llaves primarias y secundarias, lo que permitió establecer la conexión con el editor de código y cargar los datos limpios en la base de datos de Google Cloud SQL.
 
-Para la carga incremental, se creó otro pipeline que se ejecutaba cada día y generaba un archivo csv incremental únicamente para las tablas de hechos. Este pipeline filtraba la carga con la última fecha de las tablas. Para unir la carga incremental y la carga inicial, se generó un clúster en el servicio Amazon Redshift en el cual las tablas de hechos tenían una tabla de carga inicial y otro de carga incremental. En la tabla de carga inicial se ingestaba los datos de los csv que estaban en el bucket. Para poder subir los datos de los archivos csv de carga incremental a la tabla de cargas incrementales al clúster se creó Jobs del servicio AWS Glue, con lo cual se cargaban los datos a la tabla incremental del clúster y se agregaba a la tabla inicial asegurándose que no se repitan llaves primarias.
+Para almacenar cada tabla en la nube, se creó un Cloud Storage. Esto se realizó para cada tabla mediante Cloud Dataflow, el cual generaba un archivo CSV a partir de una tarea de única vez, filtrando los datos por la última fecha.
 
-Para que el Job se ejecutara cuando se insertaba un nuevo archivo csv en las carpetas de carga incremental, se creó un Lambda. El cual cuando detectaba alguna inserción y/o modificación en este csv disparaba el Job correspondiente. Con este proceso se tiene un datawarehouse actualizado en el clúster creado en el Amazon Redshift.
+Para la carga incremental, se creó otro pipeline en Cloud Dataflow, que se ejecutaba diariamente y generaba un archivo CSV incremental únicamente para las tablas de hechos. Este pipeline filtraba la carga con la última fecha de las tablas. Para unir la carga incremental y la carga inicial, se generó un clúster en BigQuery, en el cual las tablas de hechos tenían una tabla de carga inicial y otra de carga incremental. En la tabla de carga inicial, se ingerían los datos de los archivos CSV almacenados en Google Cloud Storage. Para cargar los datos de los archivos CSV de carga incremental a la tabla incremental en BigQuery, se creó un Job en Cloud Data Fusion, asegurándose de que no se repitan llaves primarias al fusionar los datos con la tabla de carga inicial.
+
+![image](https://github.com/user-attachments/assets/007f1d42-87c2-4d7d-99a4-7c37eb92a546)
+
+
+Para que el Job se ejecutara automáticamente cuando se insertaba un nuevo archivo CSV en las carpetas de carga incremental, se configuró un Cloud Function. Esta función detectaba nuevas inserciones y/o modificaciones en los archivos CSV y activaba el Job correspondiente. Con este proceso, se mantiene actualizado el data warehouse en BigQuery.
 
 ![image](https://github.com/user-attachments/assets/039fe7ed-2f40-4110-8b29-732ae11e213a)
 
+## Dashboard
+
+### Página 1.
+## Tendencias
+California y Lousiana presentan altos nivel de satisfacción mayor, pero crecimiento del mercado medianos.
+Idaho y Florida presentan mejores perspectivas de crecimiento de negocios exitosos y en satisfacción del cliente no se encuentran muy alejados california y louisiana. 
+Florida presentó menor decrecimiento debido a la pandemia y mejor recuperación.
+De las categorías principal, en Florida la que  presenta mayor crecimiento antes de la pandemia y mejor recuperación en el 2021 es FOOD.
+ subcategorías y atributos que mas se repiten en florida para la categoria FOOD
+Algunos de los negocios que destacan por su retención o satisfacción de sus clientes en florida son: 
+
+ subcategorías y atributos que mas se repiten en florida para la categoria FOOD
+
+![image](https://github.com/user-attachments/assets/b97cbff9-9370-468f-9a7a-641aad08ce6f)
+
+### Página 2.
+## Riesgos
+Porcentaje de negocios cerrados por estado
+California es el estado con la mayor satisfacción del cliente en todas las categorías, también es el estado con el mayor número de cierres de sucursales, lo que puede ser un indicio de saturación del mercado.
+Top ten del porcentaje de empresas con mayor cierre y por  estado
+Entre las grandes franquicias como Starbucks o Subway, las que menos riesgo tienen son Taco Bell, Burger King y McDonald's, ya que el porcentaje de negocios cerrados y su valor absoluto son cifras atractivas para una inversión
+Porcentaje de negocios de cada categoría por año
+Muestra que los negocios de night life y art & entertaiment, presenta un mayor porcentaje de negocios cerrado a comparacion de las demas categorías
+ya que debido al covid 19 muchos locales de nighlife se cerraron por completo asi como también, los lugares de artes y entretenimiento.  
+
+
+![image](https://github.com/user-attachments/assets/d59474e5-97f0-4b54-9b51-b02410461270)
+
+### Página 3.
+## Oportunides
+Se crea un indice que
+permite identificar 
+los negocios con
+demanda 
+insatisfecha en 
+funcion de reseñas
+negativas
+
+Se puede precisar negocios con reseñas mas negativas (menos estrellas) pero
+implica tambien menor 
+cantidad de reseñas. 
+Se puede escoger la categoria por analizar. 
+![image](https://github.com/user-attachments/assets/5f053613-52ca-4387-b03b-a97c03721ab0)
+
+### CONCLUSIONES
 
 
 
