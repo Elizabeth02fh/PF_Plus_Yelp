@@ -92,7 +92,7 @@ California y Lousiana presentan altos nivel de satisfacción mayor, pero crecimi
 Idaho y Florida presentan mejores perspectivas de crecimiento de negocios exitosos y en satisfacción del cliente no se encuentran muy alejados california y louisiana. 
 Florida presentó menor decrecimiento debido a la pandemia y mejor recuperación.
 De las categorías principal, en Florida la que  presenta mayor crecimiento antes de la pandemia y mejor recuperación en el 2021 es FOOD.
- subcategorías y atributos que mas se repiten en florida para la categoria FOOD
+subcategorías y atributos que mas se repiten en florida para la categoria FOOD
 Algunos de los negocios que destacan por su retención o satisfacción de sus clientes en florida son: 
 
  subcategorías y atributos que mas se repiten en florida para la categoria FOOD
@@ -115,18 +115,10 @@ ya que debido al covid 19 muchos locales de nighlife se cerraron por completo as
 
 ### Página 3.
 ## Oportunides
-Se crea un indice que
-permite identificar 
-los negocios con
-demanda 
-insatisfecha en 
-funcion de reseñas
-negativas
-
-Se puede precisar negocios con reseñas mas negativas (menos estrellas) pero
-implica tambien menor 
-cantidad de reseñas. 
+Se crea un indice que permite identificar los negocios con demanda insatisfecha en funcion de reseñas negativas
+Se puede precisar negocios con reseñas mas negativas (menos estrellas) pero implica tambien menor cantidad de reseñas. 
 Se puede escoger la categoria por analizar. 
+
 ![image](https://github.com/user-attachments/assets/5f053613-52ca-4387-b03b-a97c03721ab0)
 
 ## SISTEMA DE RECOMENDACIÓN DE RESTAURANTES
