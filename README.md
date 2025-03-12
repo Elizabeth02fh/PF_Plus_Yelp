@@ -114,7 +114,7 @@ ya que debido al covid 19 muchos locales de nighlife se cerraron por completo as
 
 
 ### Página 3.
-## Oportunides
+## Oportunidades
 Se crea un indice que permite identificar los negocios con demanda insatisfecha en funcion de reseñas negativas
 Se puede precisar negocios con reseñas mas negativas (menos estrellas) pero implica tambien menor cantidad de reseñas. 
 Se puede escoger la categoria por analizar. 
