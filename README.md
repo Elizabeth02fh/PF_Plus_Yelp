@@ -39,16 +39,14 @@ El mundo del emprendimiento es dinámico y desafiante, y aunque muchos nuevos ne
 
 - Numero de ordenes por dia en un restaurante
 
-### Alcance del proyecto
-
-### stack tecnológico
+## stack tecnológico
 - Extraction and transformation:
 - load and storage:
 - analysis:
 - incremental load or streaming
 - Presentation: dash plotly
 
-### Diccionario de datos
+## Diccionario de datos
 
 users:
 'n_user_id': integer user code,
